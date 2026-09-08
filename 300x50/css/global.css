@@ -1,0 +1,238 @@
+
+/* GENERIC GLOBAL STYLES */
+/* ------------------------------------------------------ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+._970x250 {width: 970px; height: 250px;}
+._300x250 {width: 300px; height: 250px;}
+._160x600 {width: 160px; height: 600px;}
+._120x600 {width: 120px; height: 600px;}
+._300x600 {width: 300px; height: 600px;}
+._728x90 {width: 728px; height: 90px;}
+._320x50 {width: 320px; height: 50px;}
+._300x50 {width: 300px; height: 50px;}
+._300x100 {width: 300px; height: 100px;}
+._250x250 {width: 250px; height: 250px;}
+._200x200 {width: 200px; height: 200px;}
+
+
+#ad {
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+  opacity: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#ad > * {
+  position: absolute;
+}
+
+#clicktag {
+  border: 1px solid #000;
+  box-sizing: border-box;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* #cta-button{
+  display: flex;
+  padding:0 6px;
+  box-sizing: border-box;
+  align-items: center;
+}
+#cta-text{
+  text-align: center;
+  width:100%;
+  line-height: 100%;
+} */
+
+/* DISCLAIMER STYLES */
+/* ------------------------------------------------------ */
+
+#disclaimer-box {
+  top: 1px;
+  left: 1px;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  background-color: #FFF;
+  cursor: pointer;
+  display: none;
+  font-weight: 400;
+}
+#disclaimer-box.open {
+  display: block;
+}
+#disclaimer-box > * {
+  position: absolute;
+}
+#disclaimer-title {
+  font-size: 12px;
+  top:10px;
+  left:10px;
+  font-weight: 600;
+}
+
+._728x90 #disclaimer-title {
+  top:8px;
+}
+
+._320x50 #disclaimer-title,
+._300x50 #disclaimer-title {
+  font-size: 9px;
+  top: 4px;
+  left: 5px;
+  font-weight: 600;
+}
+
+#disclaimer-text {
+  font-size: 10px;
+  top:35px;
+  left:10px;
+  bottom:20px;
+  overflow-y: scroll;
+  width: calc(100% + 6px);
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+._728x90  #disclaimer-text {
+  top:25px;
+  bottom:8px;
+}
+._320x50  #disclaimer-text,
+._300x50  #disclaimer-text {
+  font-size: 8px;
+  top: 17px;
+  left: 5px;
+  bottom: 5px;
+  overflow-y: scroll;
+  width: calc(100% + 11px);
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+#disclaimer-button {
+  text-decoration: underline;
+  font-size: 9px;
+  color:#999;
+  cursor: pointer;
+  font-weight: 400;
+}
+#disclaimer-button:hover {
+  color: #333;
+}
+
+#ad:not([class*="x50"]) #disclaimer-close {
+  width:18px;
+  height:18px;
+  border-radius: 50%;
+  background-color: #666;
+  color: #FFF;
+  top:10px;
+  right:10px;
+}
+#ad[class*="x50"] #disclaimer-close {
+  top:5px;
+  right:5px;
+  color: #000;
+  text-decoration: underline;
+}
+
+._728x90 #disclaimer-close {
+  top:8px;
+}
+
+#ad:not([class*="x50"]) #disclaimer-close:hover {
+  background-color: #000;
+}
+#disclaimer-close::after {
+  content:'\2715';
+  display: block;
+  font-size: 12px;
+  line-height: 100%;
+  font-family: sans-serif;
+}
+
+._320x50 #disclaimer-close::after,
+._300x50 #disclaimer-close::after {
+  content:'\2715\00a0 Close';
+  display: block;
+  font-size: 8px;
+  line-height: 100%;
+  font-family: sans-serif;
+}
+
+
+/* UTILITY CLASSES */
+/* ------------------------------------------------------ */
+.copy-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  height: 10px;
+}
+.copy-wrap > * {
+  width:100%
+}
+
+.fb {
+  width:100%;
+  height:100%;
+}
+
+.image-place, .logo-place {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:100%;
+  height:100%;
+}
+
+.x-center {
+  left:50%;
+  transform: translateX(-50%);
+}
+.y-center {
+  top:50%;
+  transform: translateY(-50%);
+}
+
+.xy-center {
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  display: flex;
+  flex-wrap:nowrap;
+}
+.flex-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.open {
+  display:block;
+}
+.hidden {
+  display: none;
+}
+.invis {
+  visibility: hidden;
+}
+
+
