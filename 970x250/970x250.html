@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="environment" content="TTD">
+    <meta name="ad.size" content="width=970,height=250">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+
+    <script type="text/javascript" src="https://s-files.innovid.com/creative/ct_dev/5/innovid_display_connector.js"></script>
+    <script type="text/javascript" src="https://gw-crs-assets.s3.amazonaws.com/DFX/scripts/v1.0.0/display_utils.js"></script>
+    <link rel="stylesheet" href="./css/global.css">
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+    <!-- TEMPLATE BOUND TAGS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="./js/main.js"></script>
+
+        <script>
+      var clickTag = ''; // PLACE EXIT URL HERE
+    </script>
+</head>
+
+<body>
+    <div id="ad">
+
+      <div id="bg" class="fb image" data-bind="bg"></div>
+      <div id="overlay" class="fb image" data-bind="overlay"></div>
+      <div id="cta" class="fb image" data-bind="cta"></div>
+      <div id="headline" class="fb image" data-bind="headline"></div>
+      <div id="headline2" class="fb image" data-bind="headline2"></div>
+      <div id="headline3" class="fb image" data-bind="headline3"></div>
+      <div id="bar" class="fb image" data-bind="bar"></div>
+            <div id="emoji1" class="fb image" data-bind="emoji1"></div>
+            <div id="heart1" class="fb image" data-bind="heart1"></div>
+            <div id="heart2" class="fb image" data-bind="heart2"></div>
+            <div id="heart3" class="fb image" data-bind="heart3"></div>
+            <div id="heart4" class="fb image" data-bind="heart4"></div>
+            <div id="heart5" class="fb image" data-bind="heart5"></div>
+
+      <div id="logo" class="fb image" data-bind="logo"></div>
+
+      <div id="clicktag"></div>
+      <!-- ALL INTERACTIVE ELEMENTS BELOW HERE-->
+
+      <div id="cta-button">
+        <div id="cta-text" resize>Unlock your offer</div>
+      </div>
+
+      <div id="disclaimer-button">Restrictions apply.</div>
+
+      <div id="disclaimer-box">
+        <div id="disclaimer-title">Disclaimer</div>
+        <div id="disclaimer-close" class="flex-center"></div>
+        <div id="disclaimer-text" data-bind="disclaimer"></div>
+      </div>
+
+    </div>
+
+
+    <script>
+        ///// INIT AD @ DOM LOADED EVENT
+        window.addEventListener("DOMContentLoaded", (e) => {
+          init();
+        });
+        ///////////////////////////////////////
+
+    </script>
+
+
+</body>
+
+</html>
