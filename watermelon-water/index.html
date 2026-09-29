@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Watermelon Water H5 Ads | Jerod Johnson</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#2b2b2b;background:#fff;line-height:1.5}
+a{color:inherit;text-decoration:none}
+
+/* NAV */
+.nav{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px 32px;max-width:1200px;margin:0 auto;padding:28px 24px}
+.nav .brand{display:flex;align-items:center;gap:14px;font-size:18px;letter-spacing:.02em}
+.nav .brand img{width:44px;height:44px;border-radius:50%;object-fit:cover}
+.nav ul{display:flex;gap:28px;list-style:none;margin:0;padding:0;font-size:15px}
+.nav ul a{padding-bottom:3px;border-bottom:1px solid transparent;transition:border-color .2s,opacity .2s;opacity:.8}
+.nav ul a:hover,.nav ul a.active{border-color:currentColor;opacity:1}
+
+/* HEADER */
+.hero{max-width:1200px;margin:0 auto;padding:24px 24px 8px}
+.back{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:#666;transition:color .2s,gap .2s}
+.back:hover{color:#000;gap:12px}
+.hero h1{font-size:40px;font-weight:600;margin:20px 0 8px;letter-spacing:-.01em}
+.hero p{max-width:640px;margin:0;color:#666;font-size:16px}
+.meta{display:flex;gap:32px;flex-wrap:wrap;margin-top:24px;padding-top:16px;border-top:1px solid #e6e6e6;font-size:13px;color:#888}
+.meta b{display:block;color:#2b2b2b;font-weight:600;font-size:14px}
+
+/* GALLERY */
+.gallery{max-width:1200px;margin:0 auto;padding:32px 24px 64px;display:flex;flex-wrap:wrap;gap:48px 40px;align-items:flex-start}
+.ad{margin:0;max-width:100%}
+.frame{max-width:100%;overflow:hidden;background:#f4f4f4;box-shadow:0 0 0 1px #e6e6e6}
+.frame iframe{display:block;border:0}
+.ad figcaption{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:10px;font-size:12px;color:#888;letter-spacing:.04em}
+.replay{display:inline-flex;align-items:center;gap:6px;font:inherit;font-size:12px;letter-spacing:.06em;color:#666;background:none;border:1px solid #d5d5d5;border-radius:20px;padding:4px 12px;cursor:pointer;transition:all .2s}
+.replay:hover{background:#2b2b2b;border-color:#2b2b2b;color:#fff}
+.replay:hover .icon{animation:spin 2s linear infinite}
+@keyframes spin{to{transform:rotate(-360deg)}}
+.row-break{flex-basis:100%;height:0}
+
+/* FOOTER */
+.footer{max-width:1200px;margin:0 auto;padding:24px;border-top:1px solid #e6e6e6;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:13px;color:#999}
+.footer a:hover{color:#000}
+
+@media (max-width:600px){.hero h1{font-size:30px}.gallery{gap:36px 24px}}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="https://jerodart.com/projects"><img src="https://cdn.myportfolio.com/e242c2a8ff9ae0ec62b7109d90647913/39f9abd4-bad0-49ed-8c20-8a2004a23a2d_rwc_0x0x512x512x4096.jpeg?h=4ec7b6594173a19ac5566eee02d332bf" alt="Jerod Johnson"><span>Jerod Johnson</span></a>
+  <ul>
+    <li><a href="https://jerodart.com/projects">Artwork</a></li>
+    <li><a href="https://jerodart.com/design">Design</a></li>
+    <li><a href="https://jerodart.com/portfolio" class="active">Portfolio</a></li>
+    <li><a href="https://jerodartstudio.etsy.com">Etsy Store</a></li>
+  </ul>
+</header>
+
+<section class="hero">
+  <a class="back" href="https://jerodart.com/portfolio">&larr; Back to Portfolio</a>
+  <h1>Watermelon Water</h1>
+  <p>Animated HTML5 banner ads for WTRMLN WTR. Press replay under any unit to watch the animation again.</p>
+  <div class="meta">
+    <div><b>Format</b>HTML5 (H5) animated banners</div>
+    <div><b>Sizes</b>160&times;600, 300&times;600, 300&times;250, 728&times;90, 320&times;50, 300&times;50</div>
+  </div>
+</section>
+
+<main class="gallery">
+    <figure class="ad">
+      <div class="frame" style="width:160px;height:600px"><iframe loading="lazy" title="160x600 ad" width="160" height="600" src="./160x600/index.html" scrolling="no"></iframe></div>
+      <figcaption><span>160&times;600</span><button class="replay" type="button" aria-label="Replay ad" onclick="var f=this.closest('.ad').querySelector('iframe');f.src=f.src;">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 18 18" fill="none" class="icon"><g stroke-width="1.5" stroke-linecap="round" stroke="currentColor"><path d="m3.33337 10.8333c0 3.6819 2.98477 6.6667 6.66663 6.6667 3.682 0 6.6667-2.9848 6.6667-6.6667 0-3.68188-2.9847-6.66664-6.6667-6.66664-1.29938 0-2.51191.37174-3.5371 1.01468"/><path d="m7.69867 1.58163-1.44987 3.28435c-.18587.42104.00478.91303.42582 1.0989l3.28438 1.44986"/></g></svg>
+Replay</button></figcaption>
+    </figure>
+    <figure class="ad">
+      <div class="frame" style="width:300px;height:600px"><iframe loading="lazy" title="300x600 ad" width="300" height="600" src="./300x600/index.html" scrolling="no"></iframe></div>
+      <figcaption><span>300&times;600</span><button class="replay" type="button" aria-label="Replay ad" onclick="var f=this.closest('.ad').querySelector('iframe');f.src=f.src;">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 18 18" fill="none" class="icon"><g stroke-width="1.5" stroke-linecap="round" stroke="currentColor"><path d="m3.33337 10.8333c0 3.6819 2.98477 6.6667 6.66663 6.6667 3.682 0 6.6667-2.9848 6.6667-6.6667 0-3.68188-2.9847-6.66664-6.6667-6.66664-1.29938 0-2.51191.37174-3.5371 1.01468"/><path d="m7.69867 1.58163-1.44987 3.28435c-.18587.42104.00478.91303.42582 1.0989l3.28438 1.44986"/></g></svg>
+Replay</button></figcaption>
+    </figure>
+    <figure class="ad">
+      <div class="frame" style="width:300px;height:250px"><iframe loading="lazy" title="300x250 ad" width="300" height="250" src="./300x250/index.html" scrolling="no"></iframe></div>
+      <figcaption><span>300&times;250</span><button class="replay" type="button" aria-label="Replay ad" onclick="var f=this.closest('.ad').querySelector('iframe');f.src=f.src;">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 18 18" fill="none" class="icon"><g stroke-width="1.5" stroke-linecap="round" stroke="currentColor"><path d="m3.33337 10.8333c0 3.6819 2.98477 6.6667 6.66663 6.6667 3.682 0 6.6667-2.9848 6.6667-6.6667 0-3.68188-2.9847-6.66664-6.6667-6.66664-1.29938 0-2.51191.37174-3.5371 1.01468"/><path d="m7.69867 1.58163-1.44987 3.28435c-.18587.42104.00478.91303.42582 1.0989l3.28438 1.44986"/></g></svg>
+Replay</button></figcaption>
+    </figure>
+<div class="row-break"></div>
+    <figure class="ad">
+      <div class="frame" style="width:728px;height:90px"><iframe loading="lazy" title="728x90 ad" width="728" height="90" src="./728x90/index.html" scrolling="no"></iframe></div>
+      <figcaption><span>728&times;90</span><button class="replay" type="button" aria-label="Replay ad" onclick="var f=this.closest('.ad').querySelector('iframe');f.src=f.src;">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 18 18" fill="none" class="icon"><g stroke-width="1.5" stroke-linecap="round" stroke="currentColor"><path d="m3.33337 10.8333c0 3.6819 2.98477 6.6667 6.66663 6.6667 3.682 0 6.6667-2.9848 6.6667-6.6667 0-3.68188-2.9847-6.66664-6.6667-6.66664-1.29938 0-2.51191.37174-3.5371 1.01468"/><path d="m7.69867 1.58163-1.44987 3.28435c-.18587.42104.00478.91303.42582 1.0989l3.28438 1.44986"/></g></svg>
+Replay</button></figcaption>
+    </figure>
+<div class="row-break"></div>
+    <figure class="ad">
+      <div class="frame" style="width:320px;height:50px"><iframe loading="lazy" title="320x50 ad" width="320" height="50" src="./320x50/index.html" scrolling="no"></iframe></div>
+      <figcaption><span>320&times;50</span><button class="replay" type="button" aria-label="Replay ad" onclick="var f=this.closest('.ad').querySelector('iframe');f.src=f.src;">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 18 18" fill="none" class="icon"><g stroke-width="1.5" stroke-linecap="round" stroke="currentColor"><path d="m3.33337 10.8333c0 3.6819 2.98477 6.6667 6.66663 6.6667 3.682 0 6.6667-2.9848 6.6667-6.6667 0-3.68188-2.9847-6.66664-6.6667-6.66664-1.29938 0-2.51191.37174-3.5371 1.01468"/><path d="m7.69867 1.58163-1.44987 3.28435c-.18587.42104.00478.91303.42582 1.0989l3.28438 1.44986"/></g></svg>
+Replay</button></figcaption>
+    </figure>
+    <figure class="ad">
+      <div class="frame" style="width:300px;height:50px"><iframe loading="lazy" title="300x50 ad" width="300" height="50" src="./300x50/index.html" scrolling="no"></iframe></div>
+      <figcaption><span>300&times;50</span><button class="replay" type="button" aria-label="Replay ad" onclick="var f=this.closest('.ad').querySelector('iframe');f.src=f.src;">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 18 18" fill="none" class="icon"><g stroke-width="1.5" stroke-linecap="round" stroke="currentColor"><path d="m3.33337 10.8333c0 3.6819 2.98477 6.6667 6.66663 6.6667 3.682 0 6.6667-2.9848 6.6667-6.6667 0-3.68188-2.9847-6.66664-6.6667-6.66664-1.29938 0-2.51191.37174-3.5371 1.01468"/><path d="m7.69867 1.58163-1.44987 3.28435c-.18587.42104.00478.91303.42582 1.0989l3.28438 1.44986"/></g></svg>
+Replay</button></figcaption>
+    </figure>
+</main>
+
+<footer class="footer">
+  <span>&copy; JerodArt All Rights Reserved.</span>
+  <a href="https://jerodart.com/portfolio">&larr; Back to Portfolio</a>
+</footer>
+
+</body>
+</html>
